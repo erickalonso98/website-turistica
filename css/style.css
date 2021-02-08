@@ -1,0 +1,192 @@
+*{
+	font-family:Arial,Helvetica;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: url('../img/hojas.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#global{
+	width: 69%;
+	height: 1100px;
+	margin: 0px auto;
+	margin-top: 30px;
+	background: #fff;
+	padding: 20px;
+	border:none;
+	border-radius: 1%;
+	box-shadow: 0px 0px 2px gray;
+}
+
+#logo{
+	width: 350px;
+	height: 60px;
+	padding: 5px;
+	background: #09741C;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+#logo [name="title"]{
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	line-height:60px;
+	letter-spacing: 0.7px;
+	text-transform: uppercase;
+	float: left;
+	margin-left: 20px;
+}
+
+#cabecera{
+	margin: 0px auto;
+	width: 100%;
+	height: 30px;
+	padding: 5px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+
+#cabecera #menu{
+	width: 100%;
+	background: #212722;
+	padding: 5px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+#cabecera #menu ul{
+	list-style: none;
+	height: 30px;
+	padding: 5px;
+}
+
+#cabecera #menu ul li{
+	display: inline-block;
+	line-height: 20px;
+	padding: 5px;
+	height: 30px;
+	transition: all 300ms;
+}
+
+
+#cabecera ul li a{
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.slider{
+	margin: 0px auto;
+	width: 100%;
+	height: 170px;
+	border:none;
+	margin-top: 30px;
+	padding: 5px;
+}
+
+.article{
+	float: left;
+	margin-top: 20px;
+	width: 60%;
+	padding: 5px;
+}
+
+.article [name="centla"]{
+	padding: 5px;
+	letter-spacing: 0.8px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.article p{
+	text-align: justify;
+}
+
+#sidebar{
+	position: relative;
+	width: 316px;
+	height: 700px;
+	float: right;
+	margin-top: 20px;
+	padding: 7px;
+	border:2px solid #000;
+	border-color: green;
+	box-shadow: 1px 1px 2px gray;
+}
+
+.primeval{
+	margin:0px auto;
+	width: 100%;
+	height: 300px;
+	border:none;
+	
+}
+
+#sidebar .primeval .content-aside img{
+	width: 100%;
+	height: 150px;
+	border-radius: 5px;
+	border:2px solid #000;
+	border-color:#09741C; 
+	margin-top: 7px;
+	box-shadow: 1px 1px 1px #212722; 
+}
+
+#sidebar .primeval [name="pejelagarto"]{
+	text-align: center;
+	background: #09741C;
+	width: 100%;
+	color: white;
+	border-radius: 5px;
+}
+
+#sidebar .primeval article{
+	width: 100%;
+	padding: 3px;
+}
+
+#sidebar .primeval article p{
+	text-align: left;
+}
+
+[name="cocodrilo"]{
+	margin-top: 20px;
+	text-align: center;
+	background: #09741C;
+	width: 100%;
+	color: white;
+	border-radius: 5px;
+}
+
+#footer{
+	margin: 0px auto;
+	text-align: center;
+	width: 69%;
+	height: 50px;
+	padding:5px;
+	background: rgba(34,34,34,0.75);
+	color: #fff;
+	line-height: 50px;
+}
+
+img{
+	width: 100%;
+	height:180px;
+}
+
+.bx-wrapper, .bx-viewport{
+	height: 180px !important;
+}
+
+.bxslider{
+	height: 250px;
+}
